@@ -1,6 +1,6 @@
 <?php
-
- $products = [
+function getProducts() {
+  return [
     [
         'id' => 'Burger01',
         'name' => 'Végétarien',
@@ -39,3 +39,4 @@
     ],
 
 ];
+}

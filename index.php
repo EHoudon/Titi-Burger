@@ -1,14 +1,14 @@
 <?php
-    include('multidimensional-catalog.php');
-    include('my-functions.php');
+    include('Functions\products.php');
+    include('Functions\prices.php');
     ?>
 
-    <?php include('header.php'); ?>
+    <?php include('Templates\header.php'); ?>
 
     <main class="contain">
         <div class="tousLesBurgers">
             <?php
-            foreach ($products as $product) :
+            foreach (getProducts() as $product) :
             ?>
 
                 <div class="Burgers">
@@ -43,5 +43,5 @@
     </main>
 
     <footer>
-        <?php include('footer.php'); ?>
+        <?php include('Templates\footer.php'); ?>
     </footer>

@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .nav {
@@ -39,13 +39,13 @@ body {
     margin: 0.5rem;
     padding: 0.4rem;
     text-align: center;
-    color: #64CCC5;
+    color: #202525;
     text-decoration: none;
     font-family: 'Gloria Hallelujah', cursive;
 }
 
 .nav_nom {
-    color: #64CCC5;
+    color: #202525;
     font-size: 3em;
     font-weight: bold;
     letter-spacing: 0.3em;
@@ -97,7 +97,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 .Burgers {
@@ -131,4 +131,29 @@ p {
 
 .mapGoogle {
     padding: 2em;
+}
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+
+th,
+td.tdTableau {
+    border: 1px solid gray;
+}
+
+th,
+td {
+    height: 50px;
+    padding: 8px;
+    vertical-align: middle;
 }
