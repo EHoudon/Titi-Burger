@@ -8,8 +8,8 @@
     <link href="CSS\style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oswald&display=swap" rel="stylesheet">
-    <title>Titi Burger index</title>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    <title>Titi Burger</title>
 
 </head>
 
@@ -17,11 +17,11 @@
 
 <header>
         <nav class="nav">
-            <div class="nav_nom">Titi Burger</div>
-            <img class="logoBurger" src="images\burger-header.png" alt="burger logo">
+            <div class="nav_nom">TITI BURGER</div>
+            <!-- <img class="logoBurger" src="images\burger-header.png" alt="burger logo"> -->
             <ul class="menu">
                 <li>
-                    <a>Accueil</a>
+                    <a href="http://localhost:8888/Titi-Burger/">Accueil</a>
                 </li>
                 <li>
                     <a>Menus</a>

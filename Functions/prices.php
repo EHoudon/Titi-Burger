@@ -22,8 +22,8 @@ function discountPrice($prix,$discount)
 
 
 
-function totalHT($prixTTC){
-  return priceExcludingVAT($_POST['howmuch'] * $prixTTC);
+function totalHT($prixTTC, $howMuch){
+  return priceExcludingVAT($howMuch * $prixTTC);
 }
 
 

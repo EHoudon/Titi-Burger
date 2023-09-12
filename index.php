@@ -33,8 +33,6 @@
                     <form action="cart.php" method="post">
                         Quantité: <input type="number" name="howmuch">
                         <input type="hidden" name="valeursTableau" id="valeursTableau" value="<?php echo $product['id'] ?>">
-                        <!-- <input type="hidden" name="valeursTableau" id="valeursTableau" value="<?php echo $product['name'] ?>">
-                        <input type="hidden" name="valeursTableau" id="valeursTableau" value="<?php echo $product['price'] ?>"> -->
                         <input type="submit" value="Envoyer">
                     </form>
                 </div>
