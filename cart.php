@@ -8,7 +8,6 @@ foreach (getProducts() as $product) {
     break;
   }
 }
-// $Quantité = $_POST['howmuch'];
 ?>
 
 
@@ -32,19 +31,19 @@ foreach (getProducts() as $product) {
       <td></td>
       <td></td>
       <td class="tdTableau">Total HT</td>
-      <td class="tdTableau"><?php echo formatPrice(priceExcludingVAT($_POST['howmuch'] * ($product['price']))); ?></td>
+      <td class="tdTableau"><?php echo formatPrice(totalHT($product['price'])); ?></td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td class="tdTableau">TVA</td>
-      <td class="tdTableau"><?php echo formatPrice(($_POST['howmuch'] * ($product['price'])) - (priceExcludingVAT($_POST['howmuch'] * ($product['price'])))); ?></td>
+      <td class="tdTableau"><?php echo formatPrice(totalTVA($product['price'])); ?></td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td class="tdTableau">Total TTC</td>
-      <td class="tdTableau"><?php echo formatPrice($_POST['howmuch'] * ($product['price'])) ?></td>
+      <td class="tdTableau"><?php echo formatPrice(totalTTC($product['price'])) ?></td>
     </tr>
     <tr>
       <td colspan="3">Choix du transporteur :
@@ -54,6 +53,7 @@ foreach (getProducts() as $product) {
             <option value="Deliveroo">Deliveroo</option>
             <option value="UberEats">Uber eats</option>
             <input type="hidden" name="howmuch" id="howmuch" value="<?php echo $_POST['howmuch'] ?>">
+
           </select>
       </td>
       <td><input type="submit" name="Valider" value="Valider"></td>
@@ -63,7 +63,7 @@ foreach (getProducts() as $product) {
       <td></td>
       <td class="tdTableau">TRANSPORT</td>
       <td class="tdTableau">
-        <?php echo fraisDePort()
+        <?php echo fraisDePort($product['price'])
         ?>
       </td>
     </tr>
@@ -71,22 +71,9 @@ foreach (getProducts() as $product) {
       <td></td>
       <td></td>
       <td class="tdTableau">Total TTC</td>
-      <td class="tdTableau"></td>
+      <td class="tdTableau"><?php echo formatPrice(totalAvecFraisPort($product['price']))
+                            ?>
+      </td>
     </tr>
   </tbody>
 </table>
-
-echo formatPrice(5);
-
-
-<!-- <label for="pet-select">Choose a pet:</label>
-
-<select name="pets" id="pet-select">
-  <option value="">--Please choose an option--</option>
-  <option value="dog">Dog</option>
-  <option value="cat">Cat</option>
-  <option value="hamster">Hamster</option>
-  <option value="parrot">Parrot</option>
-  <option value="spider">Spider</option>
-  <option value="goldfish">Goldfish</option>
-</select> -->
