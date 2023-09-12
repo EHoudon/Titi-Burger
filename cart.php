@@ -53,7 +53,7 @@ foreach (getProducts() as $product) {
             <option value="Deliveroo">Deliveroo</option>
             <option value="UberEats">Uber eats</option>
             <input type="hidden" name="howmuch" id="howmuch" value="<?php echo $_POST['howmuch'] ?>">
-
+            <input type="hidden" name="valeursTableau" id="valeursTableau" value="<?php echo $_POST['valeursTableau'] ?>">
           </select>
       </td>
       <td><input type="submit" name="Valider" value="Valider"></td>
@@ -77,3 +77,5 @@ foreach (getProducts() as $product) {
     </tr>
   </tbody>
 </table>
+
+}

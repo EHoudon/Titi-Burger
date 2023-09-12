@@ -41,7 +41,7 @@ function fraisDePort($prixTT) {
       } else if ($_POST['transporteur'] == "Deliveroo") {
         if (totalTTC($prixTT) >= 50) {
           return formatPrice(0);
-        } else if (totalTTC($prixTT) <= 10) {
+        } else if (totalTTC($prixTT) <= 15) {
           return formatPrice(5);
         } else {
           return formatPrice(5*0.1);
@@ -51,7 +51,7 @@ function fraisDePort($prixTT) {
       else {
         if (totalTTC($prixTT) >= 50) {
           return formatPrice(0);
-        } else if (totalTTC($prixTT) <= 10) {
+        } else if (totalTTC($prixTT) <= 15) {
           return formatPrice(10);
         } else {
           return formatPrice(10*0.1);
