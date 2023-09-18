@@ -1,3 +1,6 @@
+<?php include('Functions\database.php'); ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +24,7 @@
             <!-- <img class="logoBurger" src="images\burger-header.png" alt="burger logo"> -->
             <ul class="menu">
                 <li>
-                    <a href="http://localhost:8888/Titi-Burger/">Accueil</a>
+                    <a href="http://localhost/Titi-Burger/">Accueil</a>
                 </li>
                 <li>
                     <a>Menus</a>
@@ -33,7 +36,7 @@
                     <a>Burgers</a>
                 </li>
                 <li>
-                    <a>Boisons</a>
+                    <a href="http://localhost/Titi-Burger/inscription.php/">Inscription</a>
                 </li>
                 <li>
                     <a>contacts</a>
