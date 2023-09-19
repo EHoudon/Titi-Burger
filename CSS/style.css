@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    color: #c4cece;
 }
 
 .contain {
@@ -67,12 +68,12 @@ body {
     font-size: 3em;
 }
 
-img {
+/* img {
     
     width: 10%;
     height: 10%;
 
-}
+} */
 
 .footer_footer {
     display: flex;
@@ -115,7 +116,23 @@ img {
     align-items: center;
     margin: 1em;
     padding-bottom: 2em;
+    padding-top:2em;
+    
+    
+
 }
+
+
+.Bienvenue {
+    font-size: 3em;
+    padding: 3em;
+}
+
+.Bienvenue2{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+    
 
 h3 {
     font-family: 'Oswald', sans-serif;

@@ -11,9 +11,6 @@ catch (Exception $e)
 
 
 $recipesStatement = $db->prepare('SELECT * FROM products');
-
-
-
 $recipesStatement->execute();
 $recipes = $recipesStatement->fetchAll();
 

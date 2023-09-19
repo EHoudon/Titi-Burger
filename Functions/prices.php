@@ -1,6 +1,6 @@
 <?php
 
-include('multidimensional-catalog.php');
+// include('multidimensional-catalog.php');
 
 
 function formatPrice(float $prix): string

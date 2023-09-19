@@ -36,7 +36,7 @@
                     <a>Burgers</a>
                 </li>
                 <li>
-                    <a href="http://localhost/Titi-Burger/inscription.php/">Inscription</a>
+                    <a href="http://localhost/Titi-Burger/inscription.php">Inscription</a>
                 </li>
                 <li>
                     <a>contacts</a>
