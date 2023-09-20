@@ -9,7 +9,7 @@
     <main class="contain">
         <div class="tousLesBurgers">
             <?php
-            foreach ($recipes as $recipe):
+            foreach (getProducts($db) as $recipe):
             ?>
 
                 <div class="Burgers">

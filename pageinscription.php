@@ -32,6 +32,7 @@ include('Functions\database.php');
                 )
             );
             $reponse = $requeteInscription->fetchAll();
+            // var_dump($reponse);
             echo "Bienvenue $nom $prenom !";
         }
         ?>

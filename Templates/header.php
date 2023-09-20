@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald&display=swap" rel="stylesheet">
-    <title>Titi Burger</title>
+    <title>Titi shop</title>
 
 </head>
 
@@ -20,7 +20,7 @@
 
 <header>
         <nav class="nav">
-            <div class="nav_nom">TITI BURGER</div>
+            <div class="nav_nom">TITI SHOP</div>
             <!-- <img class="logoBurger" src="images\burger-header.png" alt="burger logo"> -->
             <ul class="menu">
                 <li>

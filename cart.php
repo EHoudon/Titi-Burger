@@ -2,11 +2,11 @@
 include('Functions\products.php');
 include('Functions\prices.php');
 include('Templates\header.php');
-include('Functions\database.php');
+// include('Functions\database.php');
 
 
 $test = null;
-foreach ($recipes as $product) {
+foreach (getProducts($db) as $product) {
   if ($_POST['valeursTableau'] == $product['id']) {
     $test = $product;
   }
