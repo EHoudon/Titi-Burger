@@ -2,7 +2,7 @@
 
 try
 {
-	$db = new PDO('mysql:host=localhost;dbname=myboutique;charset=utf8', 'new_user', 'Randypatounes');
+	$db = new PDO('mysql:host=localhost;dbname=twingo;charset=utf8', 'new_user', 'Randypatounes');
 }
 catch (Exception $e)
 {
