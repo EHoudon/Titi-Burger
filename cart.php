@@ -1,8 +1,8 @@
 <?php
-include('Functions\products.php');
-include('Functions\prices.php');
-include('Templates\header.php');
-// include('Functions\database.php');
+include('Functions/products.php');
+include('Functions/prices.php');
+include('Templates/header.php');
+// include('Functions/database.php');
 
 
 $test = null;

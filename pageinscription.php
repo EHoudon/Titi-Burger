@@ -1,8 +1,8 @@
 <?php
-include('Functions\products.php');
-include('Functions\prices.php');
-include('Templates\header.php');
-include('Functions\database.php');
+include('Functions/products.php');
+include('Functions/prices.php');
+include('Templates/header.php');
+include('Functions/database.php');
 
 // // Debuggage
 // if (isset($_POST['inscription'])){
@@ -42,4 +42,4 @@ include('Functions\database.php');
     </div>
 </div>
 
-<?php include('Templates\footer.php'); ?>
+<?php include('Templates/footer.php'); ?>

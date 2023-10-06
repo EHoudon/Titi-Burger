@@ -1,4 +1,4 @@
-<?php include ('Templates\header.php'); ?>
+<?php include ('Templates/header.php'); ?>
 <div class="Burgers">
 <form action="pageinscription.php" method="post">
     <label for="nom">Votre nom</label>
@@ -26,4 +26,4 @@
 </form>
 </div>
 
-<?php include('Templates\footer.php'); ?>
+<?php include('Templates/footer.php'); ?>

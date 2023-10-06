@@ -1,7 +1,7 @@
 <?php
 include('classeItem.php');
 include('Catalogue.php');
-// require_once "Functions\Classes\classeItem.php";
+// require_once "Functions/Classes/classeItem.php";
 
 echo displayItem($Item);
 

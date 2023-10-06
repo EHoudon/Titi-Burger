@@ -15,7 +15,7 @@
         </p>
     </div>
     <div>
-        <a href="https://fr-fr.facebook.com/" target="_blank"><img class="logo_facebook" src="images\Facebook_icon.svg.webp" alt="logo Facebook">
+        <a href="https://fr-fr.facebook.com/" target="_blank"><img class="logo_facebook" src="images/Facebook_icon.svg.webp" alt="logo Facebook">
         </a>
     </div>
     <div>

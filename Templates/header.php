@@ -1,4 +1,4 @@
-<?php include('Functions\database.php'); ?>
+<?php include('Functions/database.php'); ?>
 
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="CSS\style.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Oswald&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 <header>
         <nav class="nav">
             <div class="nav_nom">TITI SHOP</div>
-            <!-- <img class="logoBurger" src="images\burger-header.png" alt="burger logo"> -->
+            <!-- <img class="logoBurger" src="images/burger-header.png" alt="burger logo"> -->
             <ul class="menu">
                 <li>
                     <a href="http://localhost/Titi-Burger/">Accueil</a>
