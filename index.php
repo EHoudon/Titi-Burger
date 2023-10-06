@@ -1,10 +1,10 @@
 <?php
-    include('Functions\products.php');
-    include('Functions\prices.php');
+    include('Functions/products.php');
+    include('Functions/prices.php');
     
    
 
- include('Templates\header.php'); ?>
+ include('Templates/header.php'); ?>
 
     <main class="contain">
         <div class="tousLesBurgers">
@@ -44,7 +44,7 @@
     </main>
 
     <footer>
-        <?php include('Templates\footer.php'); ?>
+        <?php include('Templates/footer.php'); ?>
     </footer>
 
 
